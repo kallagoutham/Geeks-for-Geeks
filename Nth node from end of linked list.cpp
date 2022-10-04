@@ -18,3 +18,4 @@ int getNthFromLast(Node *head, int n)
       }
       return head->data;
 }
+//Here we are finding the length of the linked list first and now we are iterating over it k=(l-n) times because nth node from end is same as kth node from begining
